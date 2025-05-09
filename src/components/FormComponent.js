@@ -138,7 +138,7 @@ export default function FormComponent() {
 				<div className="">
 				    <div id="fullName" className="flex border-solid border-[1px] border-[#37405E] rounded-[5px] h-[50px] items-center hover:border-[#37405E]" onClick={() => onInputClicked("fullName")}>
 				        <label className="ml-[5px] absolute text-[#677788] cursor-text bg-[#FFFFFF] px-[10px]">Full name</label>
-				        <input className="outline-none mx-[10px] w-[100%] centilio-input-last-name" onBlur={() => onInputFocusOut("fullName")} placeholder="" type="text" id="fname" name="fname" />
+				        <input className="outline-none mx-[10px] w-[100%] centilio-input-full-name" onBlur={() => onInputFocusOut("fullName")} placeholder="" type="text" id="fname" name="fname" />
 				    </div>
 				    <div className="text-right mt-[2px] text-[12px] text-[#ff3f3f] invisible" id="errorName">Full name Cannot be Empty</div>
 				</div>
